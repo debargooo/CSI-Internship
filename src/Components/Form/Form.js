@@ -13,6 +13,7 @@ function Form() {
     number: "",
     adhar: "",
     pan: "",
+    countrycode:"",
     country:"",
     city:""
   };
@@ -119,6 +120,9 @@ function Form() {
     } 
     if (!values.city) {
       errors.city = "City name required!";
+    }
+    if (!values.countrycode) {
+      errors.countrycode = "Country code required!";
     } 
 
     return errors;
@@ -210,15 +214,21 @@ function Form() {
             </div>
             <div className="form four">
               <h2>Phone No.</h2>
-              <p className="errorMsg">{formErrors.number}</p>
+              
               <div className="phoneNumber">
+                <div>
+                <p className="errorMsg">{formErrors.countrycode}</p>
                 <select id="countrycode" type="number" name="countrycode" value={formValues.countrycode} onChange={handleChange}>
+                <option value="Country-Code">Select Country Code</option>
                   <option value="91">91</option>
                   <option value="92">92</option>
                   <option value="1">1</option>
                   <option value="33">33</option>
                 </select>
-
+                </div>
+             
+                <div>
+                <p className="errorMsg">{formErrors.number}</p>
                 <input
                   id="number"
                   type="number"
@@ -227,6 +237,8 @@ function Form() {
                   value={formValues.number}
                   onChange={handleChange}
                 />
+                </div>
+                
               </div>
             </div>
             <div className="form five">
