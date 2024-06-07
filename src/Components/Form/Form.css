@@ -90,11 +90,13 @@ h1 {
   width: 100%;
 }
 
-#countrycode {
-  width: 20%;
-}
+
 #number {
-  width: 80%;
+  width: 100%;
+}
+
+#countrycode {
+  width: 100%;
 }
 
 .phoneNumber {
@@ -133,6 +135,10 @@ svg {
 }
 
 .three div {
+  width: 100%;
+}
+
+.four div {
   width: 100%;
 }
 
