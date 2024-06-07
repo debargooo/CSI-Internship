@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CSI-internship/static/css/main.33e65a5a.css",
+    "main.js": "/CSI-internship/static/js/main.a0778bec.js",
+    "static/js/453.ed3810f9.chunk.js": "/CSI-internship/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/CSI-internship/index.html",
+    "main.33e65a5a.css.map": "/CSI-internship/static/css/main.33e65a5a.css.map",
+    "main.a0778bec.js.map": "/CSI-internship/static/js/main.a0778bec.js.map",
+    "453.ed3810f9.chunk.js.map": "/CSI-internship/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33e65a5a.css",
+    "static/js/main.a0778bec.js"
+  ]
+}
